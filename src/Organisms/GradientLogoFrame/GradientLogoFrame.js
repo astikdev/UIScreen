@@ -7,10 +7,10 @@ import Img from '../../atoms/Img/Img'
 
 const GradientLogoFrame = (props) => {
   return (
-    <BackgroundFrame {...props}>
-      <GradientShadowFrame {...props}  />
+    <BackgroundFrame {...props}> // why same propos passing 3 component ?
+      <GradientShadowFrame {...props}  /> // why same propos passing 3 component ?
       {props?.logoImage && (
-        <Img {...props}/>
+        <Img {...props}/> // why same propos passing 3 component ? propos with spred oprater only be used in atoms
       )}
       {props.children}
     </BackgroundFrame>

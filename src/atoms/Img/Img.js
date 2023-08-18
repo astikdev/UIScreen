@@ -7,7 +7,7 @@ const Image = (props) => {
         <img
           className={props?.logoClassName}
           src={props?.LogoSRC}
-          alt={props?.logoALT}
+          alt={props?.logoALT} // where do i pass extra propos?
         />
     </>
   )

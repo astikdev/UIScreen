@@ -17,7 +17,7 @@ const SignUp = () => {
         gradient={true}
       >
         <SignUpDetailForm />
-        <SignUpFooter text='Already a Subscriber? ' />
+        <SignUpFooter text='Already a Subscriber? ' /> // change this to dynamic 
       </GradientLogoFrame>
     </>
   )

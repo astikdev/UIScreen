@@ -7,7 +7,7 @@ import './SocialMediaSignUpButton.css'
 const SocialMediaSignUpButton = (props) => {
   return (
     <>
-      <h2 className='title'>Create an Account</h2>
+      <h2 className='title'>Create an Account</h2> // why button file have title ? remove from here 
       <div className='text-center button_large_screen'>
         <Button
           className='socialmedia_signup'

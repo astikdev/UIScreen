@@ -10,7 +10,7 @@ const Input = (props) => {
         <Field
           name={props.name}
           type={props.type}
-          placeholder={props?.InputPlaceholder}
+          placeholder={props?.InputPlaceholder} // add extra propos first latter navew capital in propos
         />
       </div>
       <ErrorMessage

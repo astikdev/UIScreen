@@ -1,7 +1,7 @@
 import React from 'react'
 import './SignUp.css'
 import logo from '../../assets/images/Profile.svg'
-import SignUpFooter from '../../Molecules/SignUpFooter/SignUpFooter'
+import SignUpFooter from '../../Organisms/SignUpFooter/SignUpFooter'
 import SignUpDetailForm from '../../Organisms/SignUpDetailForm/SignUpDetailForm'
 import GradientLogoFrame from '../../Organisms/GradientLogoFrame/GradientLogoFrame'
 

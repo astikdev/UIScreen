@@ -1,7 +1,6 @@
 import React from 'react'
 import './GradientShadowFrame.css'
 const GradientShadowFrame = (props) => {
-  console.log(props)
   return (
     <>
       {props?.gradient && <div className='background_gradient'></div>}
@@ -9,5 +8,4 @@ const GradientShadowFrame = (props) => {
     </>
   )
 }
-
 export default GradientShadowFrame

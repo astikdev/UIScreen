@@ -12,12 +12,11 @@ const SignUpForm = () => {
     email: '',
   }
   const validationSchema = Yup.object({
-    name: Yup.string().min(2, 'Too Short!').max(70, 'Too Long!').required('Name is required'),
-    email: Yup.string().email('Invalid email address').required('Email is required'),
+    name: Yup.string().min(2, 'Too Short Name!').max(70, 'Too Long Name!').required('Name Is Required!'),
+    email: Yup.string().email('Invalid Email Id!').required('Email Is Required!'),
   })
 
   const handleSubmit = (values) => {
-    console.log(values);
   };
   return (
     <Formik
@@ -42,7 +41,6 @@ const SignUpForm = () => {
           />
           <Button type='submit' className='form_submit_Button' text='Continue' spanText={false} />
       </Form>
-
     </Formik>
   )
 }

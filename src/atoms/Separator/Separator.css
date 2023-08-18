@@ -8,18 +8,15 @@
     margin-bottom: 25px;
     color: #ffffff75;
   }
-
   .separator::before,
   .separator::after {
     content: '';
     flex: 1;
     border-bottom: 1px solid #ffffff75;
   }
-
   .separator:not(:empty)::before {
     margin-right: .25em;
   }
-
   .separator:not(:empty)::after {
     margin-left: .25em;
   }
@@ -31,6 +28,5 @@
     .separator {
       width: 730px;
     }
-
   }
 

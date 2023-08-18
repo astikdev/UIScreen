@@ -6,7 +6,6 @@ import Img from '../../atoms/Img/Img'
 
 
 const GradientLogoFrame = (props) => {
-  console.log("GradientLogoFrame",props.LogoSRC)
   return (
     <BackgroundFrame {...props}>
       <GradientShadowFrame {...props}  />

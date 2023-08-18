@@ -7,7 +7,6 @@ body {
   margin: auto;
   position: relative;
   background-color:#000201;
-
   height: 100vh;
   text-align: center;
   display: flex;
@@ -31,7 +30,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-self: flex-end;
-  /* z-index: 3; */
 }
 
 

@@ -36,15 +36,15 @@ const SignUpForm = () => {
         <Input
           type='text'
           name='name'
-          imageSRC={icon}
-          ImageALT='UserName Input'
+          imageSrc={icon}
+          imageAlt='UserName Input'
           inputPlaceholder='Name'
         />
         <Input
           type='text'
           name='email'
-          imageSRC={icon}
-          ImageALT='Email Input'
+          imageSrc={icon}
+          imageAlt='Email Input'
           inputPlaceholder='Email'
         />
         <Button type='submit' className='form_submit_Button' text='Continue' />

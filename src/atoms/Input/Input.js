@@ -6,7 +6,7 @@ const Input = (props) => {
   return (
     <div className='main'>
       <div className='input_type'>
-        {props?.imageSRC && <img src={props.imageSRC} alt={props.ImageALT} />}
+        {props?.imageSrc && <img src={props.imageSrc} alt={props.imageAlt} />}
         <Field
           name={props.name}
           type={props.type}

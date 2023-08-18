@@ -6,11 +6,7 @@ const Button = (props) => {
   return (
     <button className={props.className || 'form_submit_Button'} {...props}>
       {props?.imageSrc && <img src={props.imageSrc} alt={props.imageAlt} />}
-      {props?.textClassName ? (
-        <Text className={props.textClassName} text={props.text} />
-      ) : (
-        props.text
-      )}
+      <Text className={props.textClassName} text={props.text} />
     </button>
   )
 }

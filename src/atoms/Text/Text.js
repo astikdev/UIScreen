@@ -3,7 +3,7 @@ import './Text.css'
 
 const Text = (props) => {
   return (
-    <span className={props?.className} >
+    <span className={props?.className || 'maintext'} >
       {props.text}
     </span>
   )

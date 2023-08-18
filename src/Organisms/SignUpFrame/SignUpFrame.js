@@ -1,10 +1,9 @@
 import React from 'react'
-import './GradientLogoFrame.css'
 import GradientShadowFrame from '../../Molecules/GradientShadowFrame/GradientShadowFrame'
 import BackgroundFrame from '../../Molecules/BackgroundFrame/BackgroundFrame'
 import Img from '../../atoms/Img/Img'
 
-const GradientLogoFrame = (props) => {
+const SignUpFrame = (props) => {
   const {className, src, alt, shadow, gradient} = props
   return (
     <BackgroundFrame>
@@ -15,4 +14,4 @@ const GradientLogoFrame = (props) => {
   )
 }
 
-export default GradientLogoFrame
+export default SignUpFrame

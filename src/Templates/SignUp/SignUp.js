@@ -3,12 +3,12 @@ import './SignUp.css'
 import logo from '../../assets/images/Profile.svg'
 import SignUpFooter from '../../Organisms/SignUpFooter/SignUpFooter'
 import SignUpDetailForm from '../../Organisms/SignUpDetailForm/SignUpDetailForm'
-import GradientLogoFrame from '../../Organisms/GradientLogoFrame/GradientLogoFrame'
+import SignUpFrame from '../../Organisms/SignUpFrame/SignUpFrame'
 
 const SignUp = () => {
   return (
     <>
-      <GradientLogoFrame
+      <SignUpFrame
         className='logo'
         src={logo}
         alt='site-logo'
@@ -17,11 +17,12 @@ const SignUp = () => {
       >
         <SignUpDetailForm />
         <SignUpFooter
+          className='footer_text'
           text='Already a Subscriber? '
           linkText='Log In'
           linkClassName='underline'
         />
-      </GradientLogoFrame>
+      </SignUpFrame>
     </>
   )
 }

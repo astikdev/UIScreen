@@ -7,7 +7,7 @@ const SignUpFooter = (props) => {
   return (
     <div className={props.footerClass || 'footer'}>
       <p className={props.footerTextClass || 'footer_text'}>
-        {props.text && <Text text={props.text} />}
+        {props.text && <Text text={props.text} className={props.className} />}
         {props.linkText && (
           <Link className={props.linkClassName} text={props.linkText} />
         )}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Img.css'
-// import 'Image.css'
+
 const Image = (props) => {
   return (
     <>

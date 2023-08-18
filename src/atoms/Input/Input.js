@@ -11,6 +11,7 @@ const Input = (props) => {
           name={props.name}
           type={props.type}
           placeholder={props?.inputPlaceholder}
+          // {...props}
         />
       </div>
       <ErrorMessage

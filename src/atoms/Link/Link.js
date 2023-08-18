@@ -3,7 +3,7 @@ import './Link.css'
 
 const Link = (props) => {
   return (
-      <a className={props.className} href={props?.href || '#'}>{props.text}</a>
+      <a className={props?.className} href={props?.href || '#'}>{props.text}</a>
   )
 }
 

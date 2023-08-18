@@ -1,8 +1,8 @@
 .footer {
-  background-image: linear-gradient(to right top, #4d025446, #3f145946, #301e5c46, #20245c46, #0d285a46);
+  background-image: linear-gradient(to right top, #4d0254aa, #3f1459aa, #301e5caa, #20245caa, #0d285aaa);
   border-radius: 25px 25px 0 0;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   width: 100%;
   background-size: cover;
   z-index: 3;

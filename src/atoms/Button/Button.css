@@ -10,7 +10,7 @@
     margin-top: 10px;
     text-align: center;
     border: 0.5px solid #fff;
-    background: linear-gradient(135deg, #170B47 0%, #080332 100%) padding-box,
+    background: linear-gradient(90deg, #201447 0%, #201949 25%, #131946 50%, #111a45 75%, #11153e 100%) padding-box,
       linear-gradient(65deg, #00e1ff,#0d5700,#ff8400) border-box;
     border: 0.5px solid transparent;
     cursor: pointer;
@@ -48,7 +48,7 @@
     margin: auto;
     font-weight: 600;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .form_submit_Button span.button_text{
   color:#0f0f0f;

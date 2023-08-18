@@ -14,12 +14,12 @@ body {
   overflow-y: scroll  ;
   z-index: 0;
 }
-.background__gap {
+.bg_gap {
   flex-grow: 0.15;
   z-index: -2;
   min-height: 140px;
 }
-.background_color_gradient_image{
+.gradient_image{
   border-radius: 25px 25px 0 0;
   background-size: cover;
   flex-grow: 0.85;

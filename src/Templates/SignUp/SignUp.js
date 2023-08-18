@@ -9,29 +9,21 @@ const SignUp = () => {
   return (
     <>
       <GradientLogoFrame
-        logoImage={true}
-        logoClassName='logo'
-        LogoSRC={logo}
-        logoALT='site-logo'
+        className='logo'
+        src={logo}
+        alt='site-logo'
         shadow={true}
         gradient={true}
       >
         <SignUpDetailForm />
-        <SignUpFooter text='Already a Subscriber? ' /> // change this to dynamic 
+        <SignUpFooter
+          text='Already a Subscriber? '
+          linkText='Log In'
+          linkClassName='underline'
+        />
       </GradientLogoFrame>
     </>
   )
 }
 
 export default SignUp
-
-
-
-
-
-
-
-
-
-
-

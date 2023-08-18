@@ -7,19 +7,15 @@ const TermsAndPrivacyPolicy = () => {
     <div className='login-terms'>
       <Text
         text='By using the app I agree to The Sport'
-        className='center font-weight-400 color_whiter-semi-transperant'
+        className='center font-weight-400 color_semi_transparent'
       />
-      <div className='space_2'></div> // closting tag or remove this and add this class name in text 
-      <Link
-        text='Terms of Service '
-        href='#login' // if you dont hae redirection uer dont pass this propos
-        className='no_underline '
-      />
+      <div className='space_2' />
+      <Link text='Terms of Service ' className='no_underline ' />
       <Text
         text='&'
-        className='center font-weight-400 color_whiter-semi-transperant' // try to use class name relevent and min
+        className='center font-weight-400 color_semi_transparent'
       />
-      <Link text=' Privacy Policy' href='#login' className='no_underline ' /> // if you dont hae redirection uer dont pass this propos
+      <Link text=' Privacy Policy' className='no_underline ' />
     </div>
   )
 }

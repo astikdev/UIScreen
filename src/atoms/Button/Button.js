@@ -1,19 +1,17 @@
 import React from 'react'
 import './Button.css'
+import Text from '../Text/Text'
 
 const Button = (props) => {
-
   return (
-    <> // remove unused tag
-        <button  
-        className={props.className} // add default class here and also class add on
-        {...props}
-        >
-              {props?.ImageSRC && <img src={props.ImageSRC} alt={props.ImageALT} />} // props name first name naver capital
-              <span className='button_text'>{props.text}</span> // how I can change css of this text 
-        </button>      
-
-    </>
+    <button className={props.className || 'form_submit_Button'} {...props}>
+      {props?.imageSrc && <img src={props.imageSrc} alt={props.imageAlt} />}
+      {props?.textClassName ? (
+        <Text className={props.textClassName} text={props.text} />
+      ) : (
+        props.text
+      )}
+    </button>
   )
 }
 

@@ -4,12 +4,14 @@ import SocialMediaSignUpButton from '../../Molecules/SocialMediaSignUpButton/Soc
 import Separator from '../../atoms/Separator/Separator'
 import SignUpForm from '../../Molecules/SignUpForm/SignUpForm'
 import TermsAndPrivacyPolicy from '../../Molecules/TermsAndPrivacyPolicy/TermsAndPrivacyPolicy'
+import Text from '../../atoms/Text/Text'
 
 const SignUpDetailForm=(props)=> {
   return (
     <>
+      <Text text='Create an Account' className='title'/>
       <SocialMediaSignUpButton />
-      <Separator />
+      <Separator text='or' />
       <SignUpForm />
       <TermsAndPrivacyPolicy />
     </>

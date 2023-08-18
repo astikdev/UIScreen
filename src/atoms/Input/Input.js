@@ -1,6 +1,6 @@
 import React from 'react'
 import './Input.css'
-import {Field, ErrorMessage} from 'formik';
+import {Field, ErrorMessage} from 'formik'
 
 const Input = (props) => {
   return (
@@ -10,7 +10,7 @@ const Input = (props) => {
         <Field
           name={props.name}
           type={props.type}
-          placeholder={props?.InputPlaceholder} // add extra propos first latter navew capital in propos
+          placeholder={props?.inputPlaceholder}
         />
       </div>
       <ErrorMessage

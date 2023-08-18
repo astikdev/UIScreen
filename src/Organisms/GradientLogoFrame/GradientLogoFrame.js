@@ -4,14 +4,12 @@ import GradientShadowFrame from '../../Molecules/GradientShadowFrame/GradientSha
 import BackgroundFrame from '../../Molecules/BackgroundFrame/BackgroundFrame'
 import Img from '../../atoms/Img/Img'
 
-
 const GradientLogoFrame = (props) => {
+  const {className, src, alt, shadow, gradient} = props
   return (
-    <BackgroundFrame {...props}> // why same propos passing 3 component ?
-      <GradientShadowFrame {...props}  /> // why same propos passing 3 component ?
-      {props?.logoImage && (
-        <Img {...props}/> // why same propos passing 3 component ? propos with spred oprater only be used in atoms
-      )}
+    <BackgroundFrame>
+      <GradientShadowFrame shadow={shadow} gradient={gradient} />
+      {props?.src && <Img className={className} src={src} alt={alt} />}
       {props.children}
     </BackgroundFrame>
   )

@@ -1,0 +1,26 @@
+.background_gradient {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-image: var(--fill-gradinet-3, linear-gradient(135deg, #170B47 0%, #070518 100%));
+  border-radius: 25px 25px 0 0;
+  background-size: cover;
+  z-index: -2;
+}
+
+.background_shadow {
+  position: absolute;
+  top: -1.8%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-image: var(--fill-gradinet-3, linear-gradient(135deg, #170B47 0%, #070518 100%));
+  border-radius: 60px 60px 0 0;
+  background-size: cover;
+  opacity: 0.55;
+  z-index: -3;
+}

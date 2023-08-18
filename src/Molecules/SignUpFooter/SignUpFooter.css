@@ -8,17 +8,15 @@
   z-index: 3;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 0; 
 }
 
 .footer_text {
   color: #ffffffa2;
 }
-
 .footer_text a {
   color: #ffffff;
 }
-
-.footer_fullWidth {
+.fullwidth{
   width: 100%;
 }

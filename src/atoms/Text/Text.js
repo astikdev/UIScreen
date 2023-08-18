@@ -3,7 +3,7 @@ import './Text.css'
 
 const Text = (props) => {
   return (
-    <span className={props.className} style={{color:props.textColor}}>
+    <span className={props.className} >
       {props.text}
     </span>
   )

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.main_container {
+  margin: auto;
+  position: relative;
+  background-color:#000201;
+
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll  ;
+  z-index: 0;
+}
+.background__gap {
+  flex-grow: 0.15;
+  z-index: -2;
+  min-height: 140px;
+}
+.background_color_gradient_image{
+  border-radius: 25px 25px 0 0;
+  background-size: cover;
+  flex-grow: 0.85;
+  height: 100%;
+  /* background-image: var(--fill-gradinet-3, linear-gradient(135deg, #170B47 0%, #070518 100%)); */
+  background-image: url(../../assets/images/colorsgradscreen.svg);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  /* z-index: 3; */
+}
+
+
+
+
+
+
+
+
+
+

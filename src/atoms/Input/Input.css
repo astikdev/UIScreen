@@ -2,9 +2,11 @@
     width: 85%;
     text-align: center;
     margin: auto;
-
 }
-.signUpInput{
+.main img{
+    margin-left: 12px ;
+}
+.input_type{
     display: flex;
     align-items: center;
     text-align: center;
@@ -15,7 +17,7 @@
     padding-bottom: 15px;
     border-radius: 10px;
 }
-.signUpInput input[type="text"]{
+.input_type input[type="text"]{
     justify-self: left;
     background: none;
     border: none;
@@ -23,8 +25,9 @@
     width: 80%;
     color: #fff;
     font-size: 16px;
+    padding-left: 10px; 
 }
-.signUpInput input[type="submit"]{
+.input_type input[type="submit"]{
     background: none;
     border: none;
     color: #0f0f0f;
@@ -33,23 +36,27 @@
     font-weight: 600;
     cursor: pointer;
 }
-.signUpInput input:focus {
+.input_type input:focus {
     border: none;
   }
-.signUpInput input[type="text"]::placeholder {
+.input_type input[type="text"]::placeholder {
 color: #FFFFFF;
 font-weight: 500;
 font-family: 'Inter', sans-serif;
 }
-.signUpInput input[type="text"]:focus {
+.input_type input[type="text"]:focus {
 outline: none;
 border-color: transparent;
 color: #FFFFFF;
 }
-.signUpInput input[type="submit"]::placeholder {
+.input_type input[type="submit"]::placeholder {
 color: #000;
 font-weight: 800;
 font-family: 'Inter', sans-serif;
+}
+.error-message {
+    color: red;
+    padding: 0px 0 8px 0;
 }
 
 

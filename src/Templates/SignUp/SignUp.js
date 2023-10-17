@@ -3,35 +3,28 @@ import './SignUp.css'
 import logo from '../../assets/images/Profile.svg'
 import SignUpFooter from '../../Organisms/SignUpFooter/SignUpFooter'
 import SignUpDetailForm from '../../Organisms/SignUpDetailForm/SignUpDetailForm'
-import GradientLogoFrame from '../../Organisms/GradientLogoFrame/GradientLogoFrame'
+import SignUpFrame from '../../Organisms/SignUpFrame/SignUpFrame'
 
 const SignUp = () => {
   return (
     <>
-      <GradientLogoFrame
-        logoImage={true}
-        logoClassName='logo'
-        LogoSRC={logo}
-        logoALT='site-logo'
+      <SignUpFrame
+        className='logo'
+        src={logo}
+        alt='site-logo'
         shadow={true}
         gradient={true}
       >
         <SignUpDetailForm />
-        <SignUpFooter text='Already a Subscriber? ' /> // change this to dynamic 
-      </GradientLogoFrame>
+        <SignUpFooter
+          className='footer_text'
+          text='Already a Subscriber? '
+          linkText='Log In'
+          linkClassName='underline'
+        />
+      </SignUpFrame>
     </>
   )
 }
 
 export default SignUp
-
-
-
-
-
-
-
-
-
-
-

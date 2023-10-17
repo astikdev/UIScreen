@@ -1,13 +1,11 @@
 import React from 'react'
 import './Separator.css'
 
-const Separator = () => {
+const Separator = (props) => {
   return (
-    <> // remove this 
       <div class='separator'>
-        <span>or</span> // text should be dynamic 
+        <span>{props.text}</span>
       </div>
-    </>
   )
 }
 
